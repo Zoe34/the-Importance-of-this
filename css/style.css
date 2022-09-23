@@ -1,4 +1,4 @@
-#container {
+.container {
     display: flex; /*makes container a flexbox*/
     flex-flow:row wrap; /*layout the rows and wrap them*/
     margin-right: auto;
@@ -7,7 +7,7 @@
     max-width: 1050px;
 }
 
-.card {
+.box {
     flex: 1;
     display: flex;
     flex-flow: column;
